@@ -5,7 +5,7 @@ void sum (int n, int s)
      {
         printf("%d",s);
         return;
-    }
+    } 
     sum(n-1,s+n);
     return;
 }
